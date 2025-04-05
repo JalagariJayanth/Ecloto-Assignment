@@ -1,0 +1,117 @@
+.MainContainer{
+  background-color:#cfcccc;
+  padding:20px;
+}
+.heading{
+   font-family:'Roboto';
+   font-size:25px;
+   text-align:center;
+}
+.subHeading{
+  font-family:'Roboto';
+   font-size:20px;
+   color:#424242;
+}
+.productsContainer{
+  display:flex;
+  flex-wrap: wrap;
+  gap:30px;
+}
+.MainCartContainer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius:10px;
+}
+.EmptyCartContainer{
+  background-color: white;
+  border-radius:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:15px;
+  height:100px
+}
+.EmptyCartContainer p{
+  margin-top:0px;
+  font-size:18px;
+}
+.buttons{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.addButton{
+  background-color:green;
+  outline:none;
+  border:none;
+  color:white;
+  border-radius:5px;
+  padding:10px;
+}
+.removeButton{
+  background-color:red;
+  outline:none;
+  border:none;
+  color:white;
+  border-radius:5px;
+  padding:10px;
+}
+.summaryMainContianer{
+  background-color: white;
+  border-radius:10px;
+  padding:15px;
+}
+.topSummary{
+  display:flex;
+  justify-content:space-between;
+}
+.topSummary p{
+  margin-top:0px;
+}
+.giftContainer{
+  background-color:aliceblue;
+  padding:10px;
+  border-radius:10px;
+}
+.progressbarOuter{
+  background-color:#b3b0b0;
+  height:20px;
+  border-radius:10px;
+  overflow: hidden;
+}
+.progressbarInner{
+  background-color:blue;
+  height:100%;
+}
+.freegift{
+  background-color: rgb(142, 197, 142);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:10px;
+  padding:5px 10px;
+}
+.freegift p{
+  margin:0px;
+  color:green
+}
+.cartButton{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.ClearButton{
+  background-color: rgb(197, 132, 46);
+  border:none;
+  outline:none;
+  padding:10px;
+  border-radius:10px;
+}
+button{
+  cursor: pointer;
+}
